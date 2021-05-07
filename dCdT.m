@@ -1,7 +1,7 @@
 function dC=dCdT(T,P,y)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% It returns the value of dC/dT (kmol/m3/K), which is obtained by 
-% derivating PRSV-EoS. P must be in bar, T in K and  
+% It returns the value of dC/dT (kmol/m3/K) from PRSV-EoS. 
+% P must be in bar, T in K and  
 % y=[H2,CO,CO2,H2O,N2,CH4] is the molar fraction vector.
 % Ex: dC=dCdT(550,1,[0.1,0.1,0.1,0.5,0.1,0.1])
 
