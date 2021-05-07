@@ -1,5 +1,5 @@
 function [P_out,y_out,L_inert,L]=reactor(T,P,n,y,dp,dt,T_inert)
-% Reactor tube model. Ir returns the reactor outlet pressure, composition,
+% Reactor tube model. It returns the reactor outlet pressure, composition,
 % length and inert layer length if any.,
 
 global check count z_in z_out 
